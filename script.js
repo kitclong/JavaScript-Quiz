@@ -163,6 +163,6 @@ function scorePage(theirInitials, theirScore) {
     };
     allScores.push(userData);
     localStorage.setItem('userData', JSON.stringify(allScores));
-    location.href = "/highScore.html";
+    location.href = "highScore.html";
 }
 
