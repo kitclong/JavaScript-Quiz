@@ -26,7 +26,7 @@ displayScores();
 //Buttons to clear or restart
 let backButton = document.querySelector('#backButton');
 backButton.addEventListener('click', function () {
-    location.href = '/index.html'; //goes back to quiz to run again
+    location.href = 'index.html'; //goes back to quiz to run again
 });
 
 let clearButton = document.querySelector('#clearScores');
