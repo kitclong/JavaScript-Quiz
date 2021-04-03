@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz Highscores</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container d-flex justify-content-center mt- 5 p-4">
+            <div class="col-12 text-center mt-5" id="highScoresDiv">
+                <h2 id="scoresArea">Highscores List</h2>
+                <p>The scores are: </p>
+
+                <!--Set area to print highscores-->
+                <div class="col-12 d-flex justify-content-center p-3 ">
+                    <h5 class="text-left" id="scoresListArea"></h5>
+                </div>
+
+                <!--Set back and clear buttons to restart -->
+                <button class="btn btn-success" id="backButton">Back</button>
+                <button class="btn btn-warning" id="clearScores">Clear</button>
+            </div>
+    </div>
+</body>
+<script src="/highScore.js"></script>
+</html>

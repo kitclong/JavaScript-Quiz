@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+</head>
+<body>
+    <div class="container d-flex justify-content-center mt-5">   
+        <div class="col-12 col-md-6 col-lg-8 p-4">
+            <div class="row pb-3">
+                <!-- Title div -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h2 class="code-title">JavaScript Code Quiz</h2>
+                </div>
+
+                <!-- Timer div -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h4 class="justify-content-center text-primary d-none" id="time-counter">Timer : <span id="timer">75</span></h4>
+                </div>
+
+                <!-- Highscore button div -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <a class="btn btn-warning flex-column float-right mt-3" href="/highScore.html" role="button">Highscores</a>
+                </div>
+            </div>
+
+            <!--Instructions and start button div-->
+            <div class="button-start d-flex flex-column justify-content-center pb-3" > 
+                <h3 class="instructions-text" id="instructions-text">Try to answer the following code related questions within the time limit. Keep in mind that incorrect answers will penalize your score time by 10 seconds.</h3>
+                <button class="btn btn-success btn-lg mt-5" id="start-button">Start Quiz</button>
+            </div>
+
+            <!-- Questions div set to d-none that displays questions as function 'displayQuestion' is called and prints on screen. Alerts also d-none until called-->
+            <div class="quiz-questions text-left d-none" id="quiz-questions">
+                <h2 class="text-info text-left" id="title-item"></h2>
+                <div class="answers text-center mt-5 mb-5" id="question-answers"></div>
+                <h2 class="text-center" id="alertResult"></h2>
+            </div>
+            
+            <!--Input field and submit button div-->
+            <div class="input-score mb-3 d-none" id="add-score">
+                <input type="text" class="form-control" placeholder="Enter name or initials here:" id="inputScore" aria-describedby="addition">
+                <div class="col-12 d-flex justify-content-center pt-3">
+                    <button class="input-score-text btn btn-success ml-3" id="button-score">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/script.js"></script>
+</html>
