@@ -15,10 +15,10 @@ The purpose of this was to create a timed quiz/test with multiple choice questio
 9. Presents user with list of locally stored highscores
 10. Selecting back restarts the quiz and clear to empty list
 
-![Screenshot of page](/assets/pic1.png)
-![Screenshot of page](/assets/pic2.png)
-![Screenshot of page](/assets/pic3.png)
-![Screenshot of page](/assets/pic4.png)
+![Screenshot of page](assets/pic1.png)
+![Screenshot of page](assets/pic2.png)
+![Screenshot of page](assets/pic3.png)
+![Screenshot of page](assets/pic4.png)
 
 ## Built With:
 
