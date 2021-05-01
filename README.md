@@ -24,7 +24,7 @@ The purpose of this was to create a timed quiz/test with multiple choice questio
 
 * Javascript
 * HTML
-* ~~CSS~~ used boostraps styling and css
+* Boostraps styling/css
 * Bootstrap
 
 ## Use:
